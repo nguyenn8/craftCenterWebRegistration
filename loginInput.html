@@ -3,37 +3,46 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <!-- tab name -->
     <title>Craft Center Main Page</title>
     <link rel="stylesheet" href="css/login-index-style.css" type="text/css" />
 </head>
 <body>
+  <!-- first div orange top bar with OSU logo-->
   <div class="top-orange-container">
   <img class= "osu-logo-img" src="images/osuLogo.png" alt="osuLogo-img">
   </div>
 
+  <!-- second div black top bar with text -->
   <div class="top-black-container">
     <p>Craft Center Registration Tool</p>
   </div>
 
+  <!-- third div (bottom-container) background and login box-->
   <div class="bottom-container">
+    <!-- child of bottom-container aka login box -->
     <div class="login-box">
+      <!-- Username title and text box -->
       <p class="username-text-title">Username</p>
       <input type="text" id="Uname" name="Uname" class="textbox-username">
 
+      <!-- Pasword title and text box -->
       <p class="password-text-title">Password</p>
       <input type="text" id="Pname" name="Pname" class="textbox-password">
 
+      <!-- child of login-box that contain links to Need Help and Status Service-->
       <div class="links-container">
         <p class="help-link"><a href="https://oregonstate.teamdynamix.com/TDClient/1935/Portal/KB/ArticleDet?ID=59582">Need Help?</a></p>
         <p class="service-status-link"><a href="https://status.is.oregonstate.edu/">Service status</a></p>
       </div>
 
+      <!-- child of login-box that contain checkbox for public kiosk -->
       <div class="public-kiosk-container">
         <input type="checkbox" id="public-kiosk-id" name="public-kiosk">
         <label for="public-kiosk-label">This is a public kiosk</label>
-
       </div>
 
+      <!-- login button -->
       <button class = "login-button" type="button">Login</button>
 
     </div>
