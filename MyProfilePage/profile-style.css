@@ -26,12 +26,12 @@ body {
 }
 
 #barText {
-  margin-right: auto;
-  font-size: 25px;
+  margin-top: 0;
+  padding-top: 10px;
   padding-left: 10px;
-  color: white;
-  text-align: left;
-  padding: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .navBar ul {
@@ -100,6 +100,15 @@ hr.solidLine {
 
 .fname {
   display: inline-block;
+}
+
+.ONIDemail {
+  display: inline-block;
+}
+
+.altEmail {
+  display: inline-block;
+  margin-left: 400px;
 }
 
 .lname {

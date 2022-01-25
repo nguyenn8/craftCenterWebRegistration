@@ -14,14 +14,14 @@
   </div>
   <!-- Div bar for Craft Center name -->
   <div id="blackBar">
-    <span id="barText">Craft Center Student View</span>
+    <p id="barText">Craft Center Student View</p>
   </div>
 
   <!-- Navigation Bar of Craft Center -->
   <div class="navBar">
     <ul>
       <li><a href="#">HOME</a></li>
-      <li><a href="#">MY PROFILE</a></li>
+      <li><a href="profile.html">MY PROFILE</a></li>
       <li><a href="#">MY CLASSES</a></li>
       <li><a href="#">CLASS REGISTRATION</a></li>
       <li><a href="#">MEMBERSHIP REGISTRATION</a></li>
@@ -67,8 +67,16 @@
     <hr class="solidLine">
 
     <form class="contactForm" action="index.html" method="post">
-      <p id="emailID">ONID Email:</p>
-      <input type="text" name="onidEmail" value="onid@oregonstate.edu">
+      <div class='ONIDemail'>
+        <p id="emailID">ONID Email:</p>
+        <input type="text" name="onidEmail" value="onid@oregonstate.edu">
+      </div>
+
+      <div class='altEmail'>
+        <p id='altContact'>Alternative Email:</p>
+        <input type="text" name='altEmails' value="google@gmail.com">
+      </div>
+
       <p id="phoneID">Phone Number:</p>
       <input type="text" name="phoneNum" value="(503) 555-1234">
     </form>
