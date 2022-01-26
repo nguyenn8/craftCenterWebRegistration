@@ -116,6 +116,15 @@ hr.solidLine {
   margin-left: 400px;
 }
 
+.memberT {
+  display: inline-block;
+}
+
+.Pronoun {
+  display: inline-block;
+  margin-left: 400px;
+}
+
 #cancelbtn {
   display: inline-block;
   border-radius: 25px;
