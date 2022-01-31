@@ -44,7 +44,7 @@ hr{
   height: 660px;
   display: flex;
 
-  background-image: url(../images/craftCenterBuildingBlur.png);
+  background-image: url(./images/craftCenterBuildingBlur.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -130,7 +130,7 @@ hr{
   display: inline-block;
   font-size: 16px;
   cursor: pointer;
-  left: 15px;
+  left: 10px;
 }
 
 
