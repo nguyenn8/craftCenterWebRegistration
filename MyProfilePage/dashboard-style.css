@@ -6,8 +6,6 @@ body {
 #osuBar {
   background: #d73f09;
   height: 100px;
-  position: relative;
-  border-bottom: none;
 }
 
 #osuLogo {
@@ -36,6 +34,10 @@ body {
   font-size: 25px;
 }
 
+.navBar {
+  display: inline-block;
+}
+
 .navBar ul {
   list-style: none;
   background: white;
@@ -45,11 +47,11 @@ body {
 }
 
 .navBar li {
-  display: inline-block;
+  display: inline;
+  float: left;
 }
 
 .navBar a {
-  text-decoration: none;
   color: #333333;
   width: 120px;
   display: block;
@@ -108,4 +110,14 @@ body {
   width: 1000px;
   height: auto;
   margin: auto;
+}
+
+#universalupdate {
+  color: #d73f09
+}
+
+#announceText {
+  resize: none;
+  height: 100px;
+  width: 1000px;
 }

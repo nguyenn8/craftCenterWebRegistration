@@ -34,6 +34,10 @@ body {
   font-size: 25px;
 }
 
+.navBar {
+  display: inline-block;
+}
+
 .navBar ul {
   list-style: none;
   background: white;
@@ -43,11 +47,11 @@ body {
 }
 
 .navBar li {
-  display: inline-block;
+  display: inline;
+  float: left;
 }
 
 .navBar a {
-  text-decoration: none;
   color: #333333;
   width: 120px;
   display: block;
