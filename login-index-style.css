@@ -1,4 +1,12 @@
-﻿body
+html{
+  background: url(images/craftCenterBuildingBlur.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body
 {
   margin: 0;
   overflow:hidden;
@@ -23,6 +31,9 @@ hr{
   background:lightgray;
 }
 
+
+
+
 .top-orange-container{
   background-color: #D73F09;
   height: 100px;
@@ -40,11 +51,11 @@ hr{
 }
 
 .bottom-container{
-  background-color: pink;
+  /* background-color: pink; */
   height: 660px;
   display: flex;
 
-  background-image: url(./images/craftCenterBuildingBlur.png);
+  /* background-image: url(./images/craftCenterBuildingBlur.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
