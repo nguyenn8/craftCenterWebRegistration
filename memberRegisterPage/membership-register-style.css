@@ -1,12 +1,26 @@
-body
-{
-  padding: 0;
+body {
   margin: 0;
-  text-align: center;
+  padding: 0;
 }
 
+#osuBar {
+  background-color: #D73F09;
+  height: 100px;
+  text-align: left;
+}
 
-p{
+#osuLogo {
+  height: 100px;
+  padding-left: 5px;
+}
+
+#blackBar {
+  background-color: #000000;
+  height: 40px;
+  text-align: left;
+}
+
+#barText {
   margin-top: 0;
   padding-top: 10px;
   padding-left: 10px;
@@ -15,7 +29,8 @@ p{
   font-size: 20px;
 }
 
-.nav-container{
+.navBar{
+  display: inline-block;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -27,14 +42,14 @@ p{
 }
 
 
-.nav-container ul li{
+.navBar ul li{
   list-style-type: none;
   float: left;
   margin-left: 20px;
   display: block;
 }
 
-.nav-container a{
+.navBar a{
   padding-top: 15px;
   text-decoration: none;
   color: #252525;
@@ -43,37 +58,9 @@ p{
   text-transform: uppercase;
 }
 
-.nav-container a:hover{
+.navBar a:hover{
   color: white;
   background-color: #252525;
   padding: 10px 20px;
   display: block;
-}
-
-.top-orange-container{
-  background-color: #D73F09;
-  height: 100px;
-  text-align: left;
-}
-
-.osu-logo-img{
-  height: 100px;
-  padding-left: 5px;
-}
-
-.top-black-container{
-  background-color: #000000;
-  height: 40px;
-  text-align: left;
-}
-
-.bottom-container{
-  background-color: blue;
-  height: 748px;
-  width: 1086px;
-  position: absolute;
-  top: 220px;
-  border-radius: 25px;
-  left: 185px;
-  bottom: 11px;
 }
