@@ -64,3 +64,48 @@ body {
   padding: 10px 20px;
   display: block;
 }
+
+.membershipDiv {
+  width: 1000px;
+  padding: 35px;
+  margin: auto;
+  position: center;
+  margin-top: 15px;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.2);
+  border-radius: 25px;
+}
+
+.orangeHeader {
+  background-color: #D73F09;
+  height: 70px;
+  width:1000px;
+  position: relative;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+#titleCard {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  color: white;
+  left: 270px;
+  top: -20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.registerButton {
+  background-color: #D73F09;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  height: 100px;
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
+
+  position: center;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  margin-left: 400px;
+}

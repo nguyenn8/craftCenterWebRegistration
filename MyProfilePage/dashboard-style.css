@@ -101,48 +101,62 @@ body {
 
 .fastMenu {
   width: 1000px;
-  padding: 40px;
-  border: 3px solid black;
+  padding: 35px;
   margin: auto;
   position: center;
+  margin-top: 15px;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.2);
   border-radius: 25px;
-  margin-top: 10px;
 
 }
 
 .announceMenu {
   width: 1000px;
-  padding: 40px;
-  border: 3px solid black;
+  padding: 35px;
   margin: auto;
   position: center;
+  margin-top: 15px;
+  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.2);
   border-radius: 25px;
 }
 
-#titleFast {
+#titleMain {
   background: #d73f09;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
-  font-style: bold;
+  font-weight: lighter;
   text-align: center;
+
   width: 1000px;
   height: auto;
   margin: auto;
+  border-radius: 20px;
 }
 
 #greeting {
   font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#userName {
+  margin-left: 20px;
 }
 
 #titleAnnoun {
   background: #d73f09;
   color: white;
   font-size: 50px;
-  font-style: bold;
+  font-weight: lighter;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
   width: 1000px;
   height: auto;
   margin: auto;
+  border-radius: 20px;
 }
 
 #universalupdate {
