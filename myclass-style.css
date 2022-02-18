@@ -2,6 +2,8 @@ body
 {
   padding: 0;
   margin: 0;
+  /* resize: horizontal; */
+  /* overflow-x: hidden; */
   /* text-align: center; */
 }
 
@@ -17,18 +19,21 @@ p{
 
 hr{
   position: relative;
-  bottom: 50px;
+  bottom: 5px;
   height: 1px;
   background-color: #ccc;
   border: none;
 }
 
+
+
 .nav-container{
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  max-width: 100%;
-  min-width: 1000px;
+  /* max-width: 100%;
+  min-width: 1000px; */
+
   margin-left: -40px;
   font-family: 'Gudea',Arial,Verdana,sans-serif;
   font-weight: lighter;
@@ -76,43 +81,59 @@ hr{
   text-align: left;
 }
 
+.text-container{
+  /* background-color: pink; */
+  height: auto;
+  width: auto;
+
+}
+
 .my-classes-container{
-  width: 1000px;
-  padding: 40px;
   border: 3px solid black;
   margin: auto;
   border-radius: 25px;
   margin-top: 10px;
   position: relative;
+
+
+
+
+
+  /* display: block; */
+  /* vertical-align: top; */
+  width: 80%;
 }
 
 .class-orange-heading{
   background-color: #D73F09;
   height: 70px;
-  width:1080px;
-  position: relative;
   right: 40px;
   bottom:40px;
   border-top-left-radius: 21px;
   border-top-right-radius: 21px;
+
+  /* display: block;
+  vertical-align: top;
+  width: 120%; */
 }
 
 .myClasses-heading{
-  position: absolute;
   color: white;
-  left: 480px;
-  top: -5px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 12px;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: lighter;
+
 }
 
 .class-info-boxes {
-    width: 1100px;
+    margin-left: 10px;
 }
 
 .class-info-boxes ul{
-    position: relative;
+    /* position: relative; */
     right: 60px;
     bottom: 35px;
 }
@@ -126,7 +147,7 @@ hr{
   background:#FCFCFC;
   box-shadow: 1px 2px 5px #888888;
   border-radius: 10px;
-  position: relative;
+  /* position: relative; */
   bottom: 15px;
 }
 
@@ -137,13 +158,24 @@ hr{
   font-weight: lighter;
 }
 
+.content{
+  position: relative;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
 .no-class-message{
   color: black;
   position: relative;
-  bottom: 50px;
+  margin-left: 10px;
+  /* bottom: 50px; */
+  /* margin-left: 40px; */
   font-family: 'Average Sans', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
 }
+
+
 
 .add-class-button{
   background-color: #D73F09;
@@ -152,11 +184,13 @@ hr{
   border-radius: 10px;
   width: 70px;
   height: 30px;
-
-  position: relative;
+  float: right;
+  margin-right: 40px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  left: 920px;
-  top: 15px;
+  /* margin-bottom: 100px; */
+  /* margin-left: 400px; */
+  /* left: 920px;
+  top: 15px; */
 }
