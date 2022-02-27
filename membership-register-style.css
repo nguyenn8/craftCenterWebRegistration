@@ -77,23 +77,18 @@ body {
   margin-top: 10px;
 }
 
-.orangeHeader {
-  background-color: #D73F09;
-  height: 70px;
-  width:1000px;
-  position: relative;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-}
-
 #titleCard {
-  font-family: 'Montserrat', sans-serif;
-  position: absolute;
+  background: #d73f09;
   color: white;
-  left: 270px;
-  top: -20px;
-  font-size: 40px;
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 45px;
+  font-weight: lighter;
+  text-align: center;
+
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  border-radius: 20px;
 }
 
 .registerButton {
