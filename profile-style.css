@@ -66,15 +66,26 @@ body {
   display: block;
 }
 
-#titleProfile {
+#profileTitle  {
   background: #d73f09;
   color: white;
+  font-family: 'Montserrat', sans-serif;
   font-size: 50px;
-  font-style: bold;
+  font-weight: lighter;
   text-align: center;
+
   width: 1000px;
   height: auto;
   margin: auto;
+  border-radius: 20px;
+}
+
+.profileHeader {
+  background-color: #D73F09;
+  height: 70px;
+  width:1000px;
+  position: relative;
+  border-radius: 25px;
 }
 
 .profileBox {
@@ -90,15 +101,15 @@ body {
 }
 
 #userInfo {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  font-size: 25px;
-  font-style: bold;
+  font-size: 30px;
 }
 
 #contactInfo {
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  font-size: 25px;
-  font-style: bold;
+  font-size: 30px;
 }
 
 hr.solidLine {
@@ -109,18 +120,28 @@ hr.solidLine {
   display: inline-block;
 }
 
+#fnameid {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+}
+
 .ONIDemail {
   display: inline-block;
 }
 
 .altEmail {
   display: inline-block;
-  margin-left: 400px;
+  margin-left: 200px;
 }
 
 .lname {
   display: inline-block;
-  margin-left: 400px;
+  margin-left: 200px;
+}
+
+#lnameid {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
 }
 
 .memberT {
@@ -129,29 +150,51 @@ hr.solidLine {
 
 .Pronoun {
   display: inline-block;
-  margin-left: 400px;
+  margin-left: 200px;
 }
 
-#cancelbtn {
-  display: inline-block;
-  border-radius: 25px;
-  width: 80px;
-  height: 20px;
-  margin-left: auto;
+.cancelbutton {
+  background-color: #D73F09;
   color: white;
-  background: #d73f09;
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+
+  float: left;
+  margin-right: 40px;
   text-align: center;
-  padding: auto;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-#savebtn {
-  display: inline-block;
-  border-radius: 25px;
-  width: 80px;
-  height: 20px;
-  margin-right: auto;
+.savebutton {
+  background-color: #D73F09;
   color: white;
-  background: #d73f09;
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+
+  float: right;
+  margin-right: 40px;
   text-align: center;
-  padding: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: both;
+}
+
+input[type="text"] {
+    width: 280px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
 }
