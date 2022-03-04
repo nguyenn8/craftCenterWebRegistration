@@ -64,34 +64,3 @@ body {
   padding: 10px 20px;
   display: block;
 }
-
-.class-registration-container{
-  width: 1000px;
-  padding: 40px;
-
-  position: center;
-  margin-top: 15px;
-  box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.2);
-  border-radius: 25px;
-  margin: auto;
-  margin-top: 10px;
-}
-
-.class-orange-heading{
-  background-color: #D73F09;
-  height: 70px;
-  right: 40px;
-  bottom:40px;
-  border-top-left-radius: 21px;
-  border-top-right-radius: 21px;
-}
-
-.class-register-heading{
-    color: white;
-    text-align: center;
-    margin: 0px;
-    padding-top: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    font-weight: lighter;
-}
