@@ -2,9 +2,10 @@ body
 {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
+  /* resize: horizontal; */
+  /* overflow-x: hidden; */
+  /* text-align: center; */
 }
-
 
 p{
   margin-top: 0;
@@ -29,8 +30,8 @@ hr{
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  max-width: 100%;
-  min-width: 1000px;
+  /* max-width: 100%;
+  min-width: 1000px; */
 
   margin-left: -40px;
   font-family: 'Gudea',Arial,Verdana,sans-serif;
@@ -79,17 +80,24 @@ hr{
   text-align: left;
 }
 
+.text-container{
+  /* background-color: pink; */
+  height: auto;
+  width: auto;
+
+}
+
 .my-classes-container{
   width: 1000px;
   padding: 40px;
 
-  position: center;
+  position: relative;
   margin-top: 15px;
   box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.2);
   border-radius: 25px;
   margin: auto;
   margin-top: 10px;
-  /* width: 80%; */
+  width: 80%;
 }
 
 .class-orange-heading{
@@ -97,8 +105,7 @@ hr{
   height: 70px;
   right: 40px;
   bottom:40px;
-  border-top-left-radius: 21px;
-  border-top-right-radius: 21px;
+  border-radius: 25px;
 
   /* display: block;
   vertical-align: top;
@@ -109,28 +116,27 @@ hr{
   color: white;
   text-align: center;
   margin: 0px;
-  padding-top: 18px;
+  padding-top: 12px;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: lighter;
 
 }
 
-/* .class-info-boxes {
+.class-info-boxes {
     margin-left: 10px;
-} */
+}
 
 .class-info-boxes ul{
     /* position: relative; */
     right: 60px;
     bottom: 35px;
-    padding: 0px;
 }
 
 .class-info-boxes ul li{
   list-style: none;
   display: inline-block;
-  width: 143px;
+  width: 150px;
   height: 25px;
   padding: 10px;
   background:#FCFCFC;
