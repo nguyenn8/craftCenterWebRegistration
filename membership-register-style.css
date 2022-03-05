@@ -68,7 +68,7 @@ body {
 .membershipDiv {
   width: 1000px;
   padding: 40px;
-  height: 200px;
+  height: 300px;
 
   position: center;
   margin-top: 15px;
@@ -104,7 +104,6 @@ body {
   font-size: 30px;
   cursor: pointer;
   float: left;
-
 }
 
 .registerButton {
@@ -120,5 +119,11 @@ body {
   font-size: 30px;
   cursor: pointer;
   float: right;
+}
 
+#memberNote {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
 }
