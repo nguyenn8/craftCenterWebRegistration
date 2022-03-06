@@ -2,10 +2,9 @@ body
 {
   padding: 0;
   margin: 0;
-  /* resize: horizontal; */
-  /* overflow-x: hidden; */
-  /* text-align: center; */
+  overflow-x: hidden;
 }
+
 
 p{
   margin-top: 0;
@@ -22,17 +21,19 @@ hr{
   height: 1px;
   background-color: #ccc;
   border: none;
+  margin-bottom: 1px;
+
+
 }
 
 
 
-.nav-container{
+.navBar{
   display: inline-block;
   margin-right: auto;
   margin-left: auto;
-  /* max-width: 100%;
-  min-width: 1000px; */
-
+  max-width: 100%;
+  min-width: 1000px;
   margin-left: -40px;
   font-family: 'Gudea',Arial,Verdana,sans-serif;
   font-weight: lighter;
@@ -40,14 +41,14 @@ hr{
 }
 
 
-.nav-container ul li{
+.navBar ul li{
   list-style-type: none;
   float: left;
   margin-left: 20px;
   display: block;
 }
 
-.nav-container a{
+.navBar a{
   padding-top: 15px;
   text-decoration: none;
   color: #252525;
@@ -56,7 +57,7 @@ hr{
   text-transform: uppercase;
 }
 
-.nav-container a:hover{
+.navBar a:hover{
   color: white;
   background-color: #252525;
   padding: 10px 20px;
@@ -81,23 +82,20 @@ hr{
 }
 
 .text-container{
-  /* background-color: pink; */
   height: auto;
   width: auto;
-
 }
 
 .my-classes-container{
   width: 1000px;
   padding: 40px;
 
-  position: relative;
+  position: center;
   margin-top: 15px;
   box-shadow: 0px 0px 35px 0px rgba(0,0,0,0.2);
   border-radius: 25px;
   margin: auto;
   margin-top: 10px;
-  width: 80%;
 }
 
 .class-orange-heading{
@@ -106,10 +104,6 @@ hr{
   right: 40px;
   bottom:40px;
   border-radius: 25px;
-
-  /* display: block;
-  vertical-align: top;
-  width: 120%; */
 }
 
 .myClasses-heading{
@@ -120,24 +114,23 @@ hr{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-weight: lighter;
-
 }
 
-.class-info-boxes {
-    margin-left: 10px;
+.student-note{
+  font-size: 15px;
+  color: black;
+  margin-top: -5px;
+  margin-bottom: 10px;
 }
 
 .class-info-boxes ul{
-    /* position: relative; */
-    right: 60px;
-    bottom: 35px;
+  margin-left: -40px;
 }
+
 
 .class-info-boxes ul li{
   list-style: none;
   display: inline-block;
-  width: 150px;
-  height: 25px;
   padding: 10px;
   background:#FCFCFC;
   box-shadow: 1px 2px 5px #888888;
@@ -153,26 +146,75 @@ hr{
   font-weight: lighter;
 }
 
+.course-heading{
+  width: 260px;
+  height: 25px;
+}
+
+.category-heading{
+  width: 150px;
+  height: 25px;
+}
+
+.session-heading{
+  width: 70px;
+  height: 25px;
+}
+
+.fee-heading{
+  width: 70px;
+  height: 25px;
+}
+
+.length-heading{
+  width: 180px;
+  height: 25px;
+}
+
+.instructor-heading{
+  width: 220px;
+  height: 25px;
+}
+
 .content{
   position: relative;
   height: 100px;
   width: 100%;
   display: inline-block;
+  padding-bottom: 40px;
 }
 
-.no-class-message{
+
+
+.class-result-display-boxes{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  border: 1px dotted black;
+  background-color: #d3d3d3;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 260px 165px 68px 193px 207px;
+  grid-gap: 20px;
+  grid-auto-rows: minmax(50px, auto);
+  padding-top: 8px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.class-result-display-boxes p{
   color: black;
-  position: relative;
-  margin-left: 10px;
-  /* bottom: 50px; */
-  /* margin-left: 40px; */
-  font-family: 'Average Sans', sans-serif;
-  font-weight: normal;
+  font-size: 17px;
+  line-height: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
-
-
-.add-class-button{
+.edit-class-button{
+  position: relative;
   background-color: #D73F09;
   color: white;
   border: none;
@@ -180,12 +222,7 @@ hr{
   width: 70px;
   height: 30px;
   float: right;
-  margin-right: 40px;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  /* margin-bottom: 100px; */
-  /* margin-left: 400px; */
-  /* left: 920px;
-  top: 15px; */
 }

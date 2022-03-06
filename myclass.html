@@ -20,19 +20,17 @@
       </div>
 
   <!-- Navigation Bar of Craft Center -->
-  <div class="nav-box">
-    <div class="nav-container">
-      <nav>
-        <ul>
-          <li><a href="StudentDashboard.html">HOME</a></li>
-          <li><a href="profile.html">MY PROFILE</a></li>
-          <li><a href="myclass.html">MY CLASSES</a></li>
-          <li><a href="class-register.html">CLASS REGISTRATION</a></li>
-          <li><a href="membership-register.html">MEMBERSHIP REGISTRATION</a></li>
-        </ul>
-      </nav>
-    </div>
-      </div>
+  <div class="navBar">
+    <nav>
+      <ul>
+        <li><a href="StudentDashboard.html">HOME</a></li>
+        <li><a href="profile.html">MY PROFILE</a></li>
+        <li><a href="myclass.html">MY CLASSES</a></li>
+        <li><a href="class-register.html">CLASS REGISTRATION</a></li>
+        <li><a href="membership-register.html">MEMBERSHIP REGISTRATION</a></li>
+      </ul>
+    </nav>
+  </div>
 
   <!-- My Classes Box -->
   <div class="text-container">
@@ -45,19 +43,34 @@
       <!-- Classes info boxes -->
       <div class="class-info-boxes">
         <ul>
-          <li>Course</li>
-          <li>Category</li>
-          <li>Section</li>
-          <li>Fee</li>
-          <li>Length</li>
-          <li>Instructor</li>
+          <li class="course-heading">Course</li>
+          <li class="category-heading">Category</li>
+          <li class="fee-heading">Fee</li>
+          <li class="length-heading">Length</li>
+          <li class="instructor-heading">Instructor</li>
         </ul>
       </div>
       <hr width = "100%">
+
       <div class="content">
-        <p class= "no-class-message">No Classes Added</p>
-        <button class = "add-class-button" type="button">Add</button>
+        <p class ="student-note">
+          <b>Note: Class Registation can only be completed once students meets with front desk at Craft Center
+          to complete fee payment. <b></p>
+        <div class="display-classes">
+          <div class="class-result-display-boxes">
+              <div>Make a Pen on the Lathe Workshop Session A</div>
+              <div>Woodworking</div>
+              <div>$100</div>
+              <div>Mon Jan 7 - Feb 7
+                  <p> 2:30-5:00pm</p>
+              </div>
+              <div> Leah Venkatesan
+                <p> (she/her/they/them) </p>
+              </div>
+          </div>
+        </div>
       </div>
+      <button class = "edit-class-button" type="button">Edit</button>
 
     </div>
   </div>
