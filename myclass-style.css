@@ -100,19 +100,18 @@ hr{
 
 .class-orange-heading{
   background-color: #D73F09;
-  height: 70px;
+  height: 60px;
   right: 40px;
-  bottom:40px;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 .myClasses-heading{
   color: white;
   text-align: center;
   margin: 0px;
-  padding-top: 12px;
+  padding-top: 3px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-size: 48px;
   font-weight: lighter;
 }
 
@@ -123,57 +122,26 @@ hr{
   margin-bottom: 10px;
 }
 
-.class-info-boxes ul{
-  margin-left: -40px;
-}
-
-
-.class-info-boxes ul li{
+.class-info-boxes{
   list-style: none;
-  display: inline-block;
-  padding: 10px;
-  background:#FCFCFC;
-  box-shadow: 1px 2px 5px #888888;
+  display: grid;
   border-radius: 10px;
-  /* position: relative; */
-  bottom: 15px;
-}
-
-.class-info-boxes li{
   font-size: 17px;
   text-align: center;
   font-family: 'Bubbler One', sans-serif;
   font-weight: lighter;
+  grid-template-columns: 276px 183px 78px 230px 230px;
+  grid-gap: 2px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.course-heading{
-  width: 260px;
+.box{
+  background:#FCFCFC;
+  box-shadow: 1px 2px 5px #888888;
+  border-radius: 10px;
   height: 25px;
-}
-
-.category-heading{
-  width: 150px;
-  height: 25px;
-}
-
-.session-heading{
-  width: 70px;
-  height: 25px;
-}
-
-.fee-heading{
-  width: 70px;
-  height: 25px;
-}
-
-.length-heading{
-  width: 180px;
-  height: 25px;
-}
-
-.instructor-heading{
-  width: 220px;
-  height: 25px;
+  padding: 10px;
 }
 
 .content{
