@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <title>Craft Center - Class Registration</title>
   <link rel="stylesheet" href="class-register-style.css" />
+
 </head>
 
 <body>
+
   <!-- Div Bar for OSU w/ logo -->
   <div id="osuBar">
     <img src="images/osuLogo.png" alt="OregonState" id="osuLogo">
@@ -41,42 +43,101 @@
 
     <div class="search-box">
       <div class="search-bar-container">
-        <!-- <input id="searchbar" onkeyup="search_animal()" type="text" placeholder="Search..." class ="textbox-search-bar" name="search"> -->
-
+        <!-- <input id="searchbar" onkeyup="search_animal()" type="text" placeholder="Search..." class ="textbox-search-bar" name="searchbar"> -->
+        <input id="searchbar" type="text" placeholder="Search..." class ="textbox-search-bar" name="searchbar">
       </div>
 
       <div class="search-dropdowns-container">
-        <form name="form1" id="form1" action="/action_page.php">
+        <!-- <form name="form1" id="form1" action="/action_page.php"> -->
+        <form action="#" method="post">
+            <div class="select-box">
+              Term:
+              <select>
+                <!-- <option value="" selected>All Terms</option> -->
+                <option>All Terms</option>
+                <option>Winter 2022</option>
+                <option>Spring 2022</option>
+                <option>Summer 2022</option>
+                <option>Spring 2022</option>
+              </select>
+            </div>
 
-          Term: <select name="terms" id="terms">
-            <option value="" selected="selected">Select Term</option>
-          </select>
-          <br><br>
+            <div class="select-box">
+              Category:
+              <select>
+                <option>Select</option>
+                <option>Ceramics</option>
+                <option>Fiber Arts</option>
+                <option>Glass</option>
+                <option>Jewelry</option>
+                <option>Paper Arts</option>
+                <option>Photography</option>
+                <option>Woodworking</option>
+              </select>
+            </div>
 
-          Category: <select name="category" id="category">
-            <option value="" selected="selected">Select Category</option>
-          </select>
-          <br><br>
-
-          Fee: <select name="fee" id="fee">
-            <option value="" selected="selected">Any Course Fee</option>
-          </select>
-          <br><br>
-
-          <input class="search-btn" type="submit" value="Search">
-          <input class="reset-search-btn" type="submit" value="Reset Search">
+            <div class="select-box">
+              Fee:
+              <select>
+                <!-- <option value="" selected>All Terms</option> -->
+                <option>Any Course Fee</option>
+                <option>Free for Fee Paying Students</option>
+                <option>$20 - $45</option>
+                <option>$45 - $100</option>
+              </select>
+            </div>
         </form>
       </div>
 
+      <!-- <ul id="classesList"></ul> -->
+        <div class="class-user-card">
+          <div class="card">
+            <button type="button" class="collapsible">Beginning Wheel Throwing Mondays Session A</button>
+            <div class="content">
+              <div class="body-header">
+                <div class="item1">Instructor
+                    <p>Rachel Kirby (she/her)</p>
+                </div>
+
+                <div class="item2">Dates
+                    <p>Mon Jan 7 - Feb 7</p>
+                </div>
+                <div class="item3">Time
+                    <p>2:30-5:00pm</p>
+                </div>
+                <div class="item4">Fee
+                    <p>Free</p>
+                </div>
+                <div class="item5">Max Enrl
+                    <p>5</p>
+                </div>
+                <div class="item6">Acutal Enrl
+                    <p>4</p>
+                </div>
+                <div class="item7">Description
+                    <p>In this 4 week class, you will learn the basics of throwing. From centering to trimming and glazing,
+                    this class will get you going in ceramics!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <template >
+
+        </template>
+
+
+
+      <div class="buttons">
+        <input class="search-btn" type="submit" value="Search">
+        <input class="reset-search-btn" type="submit" value="Reset Search">
+      </div>
 
     </div>
 
-
   </div>
-<!-- <script src="class-register-search-bar.js"></script> -->
+<script src="class-register-search-bar.js"></script>
 </body>
-
-
-  </body>
 
 </html>

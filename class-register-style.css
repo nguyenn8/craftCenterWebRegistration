@@ -3,6 +3,16 @@ body {
   padding: 0;
 }
 
+select{
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 #osuBar {
   background-color: #D73F09;
   height: 100px;
@@ -96,6 +106,8 @@ body {
     font-weight: lighter;
 }
 
+
+
 .textbox-search-bar{
   position: relative;
   border: 1px solid grey;
@@ -109,8 +121,109 @@ body {
   bottom: 10px;
 }
 
+
+
 .search-dropdowns-container{
   position: relative;
+  width: 100%;
+}
+
+.select-box{
+  display: inline-block;
+  padding-left: 80px;
+}
+
+.buttons{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.search-btn{
+  position: relative;
+  background-color: #D73F09;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.reset-search-btn{
+  position: relative;
+  background-color: #D73F09;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.class-user-card{
   display: inline-block;
   width: 100%;
 }
+
+.body-header{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  /* border: 1px dotted black; */
+  /* background-color: #d3d3d3; */
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 190px 158px 64px 163px 176px 100px;
+  grid-gap: 15px;
+  grid-auto-rows: minmax(50px, auto);
+  padding-top: 8px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.item7 {
+  grid-column: 1 / span 6;
+  text-align: left;
+  padding-left: 55px;
+}
+
+.hide{
+  display: none;
+}
+
+/* #classesList {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    background-color: pink;
+} */
