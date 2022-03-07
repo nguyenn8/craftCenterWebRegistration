@@ -92,6 +92,8 @@ body {
 }
 
 .registerAlready {
+  position: relative;
+  left: 190px;
   background-color: #D73F09;
   color: white;
   border: none;
@@ -107,6 +109,8 @@ body {
 }
 
 .registerButton {
+  position: relative;
+  right: 190px;
   background-color: #D73F09;
   color: white;
   border: none;
