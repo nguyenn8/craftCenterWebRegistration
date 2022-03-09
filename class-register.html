@@ -44,7 +44,7 @@
     <div class="search-box">
       <div class="search-bar-container">
         <!-- <input id="searchbar" onkeyup="search_animal()" type="text" placeholder="Search..." class ="textbox-search-bar" name="searchbar"> -->
-        <input id="searchbar" onkeyup="search_animal()" type="text" placeholder="Search..." class ="textbox-search-bar" name="searchbar">
+        <input id="searchbar" type="text" placeholder="Search..." class ="textbox-search-bar" name="searchbar" data-search>
       </div>
 
       <div class="search-dropdowns-container">
@@ -90,9 +90,9 @@
       </div>
 
       <!-- <ul id="classesList"></ul> -->
-        <div class="class-user-card">
+        <div class="class-user-card" data-user-card-container>
 
-        <div class="card">
+        <!-- <div class="card">
             <div class="add-class-btn-container">
                 <button type="button" class = "add-class-button" name="button"> Add To My Classes</button>
             </div>
@@ -126,10 +126,11 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
+
         </div>
 
-        <!-- <template data-user-template>
+        <template data-user-template>
           <div class="card">
             <div class="add-class-btn-container">
                 <button type="button" class = "add-class-button" name="button"> Add To My Classes</button>
@@ -140,33 +141,38 @@
 
             <div class="content">
               <div class="body-header">
-                <div class="item1"> Instructor
+                <div class="item1">
+                  <h4>Instructor</h4>
                   <p class="item1-instructor" item1-instructor-body></p>
                 </div>
-                <div class="item2"> Dates
+                <div class="item2">
+                  <h4>Dates</h4>
                   <p class="item2-dates" item2-dates-body></p>
                 </div>
-                <div class="item3"> Time
+                <div class="item3">
+                  <h4>Time</h4>
                   <p class="item3-time" item3-time-body></p>
                 </div>
-                <div class="item4"> Fee
+                <div class="item4">
+                  <h4>Time</h4>
                   <p class="item4-fee" item4-fee-body></p>
                 </div>
-                <div class="item5"> Max Enrl
+                <div class="item5">
+                    <h4>Max Enrl</h4>
                     <p class="item5-max-enrl" item5-max-enrl-body></p>
                 </div>
-                <div class="item6"> Acutal Enrl
+                <div class="item6">
+                    <h4>Acutal Enrl</h4>
                     <p class="item6-actual-enrl" item6-actual-enrl-body></p>
                 </div>
-                <div class="item7"> Description
+                <div class="item7">
+                    <h4>Description</h4>
                     <p class="item7-descrip" item7-descrip-body></p>
                 </div>
               </div>
             </div>
           </div>
-
-
-        </template> -->
+        </template>
 
 
       <div class="buttons">
