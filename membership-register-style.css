@@ -29,6 +29,18 @@ body {
   font-size: 20px;
 }
 
+.logout{
+  padding-top: 10px;
+  float: right;
+  position: relative;
+  bottom: 52px;
+  right: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
 .navBar{
   display: inline-block;
   margin-right: auto;
@@ -91,26 +103,7 @@ body {
   border-radius: 20px;
 }
 
-.registerAlready {
-  position: relative;
-  left: 190px;
-  background-color: #D73F09;
-  color: white;
-  border: none;
-  border-radius: 20px;
-  width: 210px;
-  height: 130px;
-  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.2);
-
-  text-align: center;
-  font-size: 30px;
-  cursor: pointer;
-  float: left;
-}
-
 .registerButton {
-  position: relative;
-  right: 190px;
   background-color: #D73F09;
   color: white;
   border: none;
@@ -122,12 +115,21 @@ body {
   text-align: center;
   font-size: 30px;
   cursor: pointer;
-  float: right;
+  margin-left: 40%;
 }
 
 #memberNote {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   font-weight: bold;
+}
+
+#alreadyRegister {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+  margin-top: -10px;
+  color: #FF3284;
 }

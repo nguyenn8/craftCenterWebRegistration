@@ -30,6 +30,17 @@ body {
   font-size: 20px;
 }
 
+.logout{
+  float: right;
+  position: relative;
+  bottom: 22px;
+  right: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
 .navBar{
   margin-right: auto;
   margin-left: auto;

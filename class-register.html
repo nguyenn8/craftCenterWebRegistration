@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Craft Center - Class Registration</title>
   <link rel="stylesheet" href="class-register-style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -17,6 +18,11 @@
   <!-- Div bar for Craft Center name -->
   <div id="blackBar">
     <p id="barText">Craft Center Student View</p>
+    <p id="logout">
+      <a
+        class = "logout" href="login.html"> Logout
+      </a>
+    </p>
   </div>
 
   <!-- Navigation Bar of Craft Center -->
@@ -133,7 +139,10 @@
         <template data-user-template>
           <div class="card">
             <div class="add-class-btn-container">
-                <button type="button" class = "add-class-button" name="button"> Add To My Classes</button>
+                <button
+
+                type="button" class = "add-class-button" name="button" >Add To My Classes
+              </button>
             </div>
 
 
@@ -154,7 +163,7 @@
                   <p class="item3-time" item3-time-body></p>
                 </div>
                 <div class="item4">
-                  <h4>Time</h4>
+                  <h4>Fee</h4>
                   <p class="item4-fee" item4-fee-body></p>
                 </div>
                 <div class="item5">
@@ -184,6 +193,8 @@
 
   </div>
 <script src="class-register-search-bar.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
 </body>
 
 </html>

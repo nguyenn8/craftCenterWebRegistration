@@ -43,29 +43,36 @@
     <form class="profileForm" action="index.html" method="post">
       <div class="fname">
         <p id="fnameid">First Name:</p>
-        <input type="text" name="firstName" placeholder="First Name goes here">
+        <input id="textFirst" type="text" name="firstName" value="Benny" readonly>
       </div>
 
       <div class="lname">
         <p id="lnameid">Last Name:</p>
-        <input type="text" name="lastName" placeholder="Last Name goes here">
+        <input id="textLast" type="text" name="lastName" value="Beaver" readonly>
       </div>
 
       <br>
 
       <div class="memberT">
         <p id="membershipT">Membership Type:</p>
-        <input type="text" name="memT" placeholder="Student - Winter 2022">
+        <input id="textMember" type="text" name="memT" value="Student - Spring 2022" readonly>
       </div>
 
       <div class="Pronoun">
-        <p id="studentP">Prefer Pronoun:</p>
-        <input type="text" name="stuPro" placeholder="*blank*">
+        <label for="pronounChoice">Select a Pronoun: </label>
+        <select name="pronounChoice" id="pronounChoice">
+          <option disabled selected value> -- Select an Option -- </option>
+          <option value="he/him">He/Him</option>
+          <option value="she/her">She/Her</option>
+          <option value="they/them">They/Them</option>
+          <option value="ze/zir">Ze/Zir</option>
+          <option value="other">Other</option>
+        </select>
       </div>
 
       <div class="onidID">
         <p id="osuID">OSU ONID:</p>
-        <input type="text" name="osuOnid" placeholder="933123456">
+        <input id="textID" type="text" name="osuOnid" value="933123456" readonly>
       </div>
     </form>
 
@@ -78,7 +85,7 @@
     <form class="contactForm" action="index.html" method="post">
       <div class='ONIDemail'>
         <p id="emailID">ONID Email:</p>
-        <input type="text" name="onidEmail" value="onid@oregonstate.edu">
+        <input id="textONID" type="text" name="onidEmail" value="onid@oregonstate.edu" readonly>
       </div>
 
       <div class='altEmail'>
